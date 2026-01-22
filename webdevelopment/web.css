@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+
+
+body{
+    background-image: url(pexels-kevin-ku-577585\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+
+}
+
+header span{
+    color: lightseagreen;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+}
+
+nav a{
+text-decoration: none;
+color: white;
+}
+
+nav a:hover{ 
+    background: #444; 
+}
+
+
+header{
+    display: flex; 
+    align-items: center;
+    color: #eee;
+    background-color: #555; 
+    font-size: 20px;
+    font-family: biryani;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 100%;
+}
+
+#art{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: biryani;
+    margin-top: 200px;
+}
+
+#webdev{
+    height: 100 vh;
+}
+
+
+.A{
+ }
+
+.B{
+    color: lightseagreen;
+}
+
+.C{
+    color: black;
+}
+
+
+#about{
+    height: 100vh;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 1200px;
+}
+
+#contactTop {
+    background: white;
+    padding: 50px 25%;
+    margin-top: 200px;
+    
+}
+
+#contactTop h1 span {
+    color: lightseagreen;
+   
+}
+#contactTop label {
+    display: block;
+    color: black;  
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+    
+
+
+#companyCard {
+    background: #444;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    margin-top: 200px;
+}
+
+#companyCard span {
+    color: white;
+    font-size: 40px;
+}
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+}
+
+
+

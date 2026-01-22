@@ -1,0 +1,41 @@
+
+
+body{
+display: grid; 
+grid-template-columns:  1fr 1fr 1fr;
+grid-template-areas:
+    "A     A    B"
+    "A     A    C"
+    "D     E    E"
+;
+
+}
+
+section{
+    background: red;
+    margin: 10px;
+}
+
+
+#A{
+    grid-area: A;
+}
+#B{
+    grid-area: B;
+}
+#A{
+    grid-area: A;
+}
+#A{
+    grid-area: A;
+}
+#A{
+    grid-area: A;
+}
+#A{
+    grid-area: A;
+}
+
+
+
+

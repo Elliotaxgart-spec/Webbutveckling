@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.content {
+    flex: 3;
+    background-color: #fafafa;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #fafafa;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #a00;
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+}
+
+hr {
+    margin: 10px 0 20px 0;
+}
+
+.featured {
+    display: flex;
+    gap: 20px;
+}
+
+.featured img {
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.featured-text h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.meta {
+    color: #a00;
+    font-weight: bold;
+}
+
+.meta span {
+    color: #000;
+    font-weight: normal;
+}
+
+.episode-list {
+    margin-top: 20px;
+}
+
+.episode {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.episode img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.sidebar ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.sidebar li {
+    font-weight: bold;
+    margin-bottom: 10px;
+}

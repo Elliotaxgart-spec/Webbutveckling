@@ -1,0 +1,79 @@
+    @charset "utf-8";
+
+
+    #a{
+        grid-area:A;
+        background-image: url(b.webp);
+    }
+    #b{
+        grid-area:B;
+        background-image: url(c.jpg);
+    }
+    #c{
+        grid-area:C;
+        background-image: url(d.jpg);
+    }
+    #d{
+        grid-area:D;
+        background-image: url(e.jpg);
+    }
+    #e{
+        grid-area:E;
+        background-image: url(f.jpg);
+    }
+    #f{
+        grid-area:F;
+        background-image: url(g.webp);
+    }
+    #g{
+        grid-area:G;
+        background-image: url(h.jpg);
+    }
+    #l{
+        grid-area:L;
+        background-image: url(i.jpg);
+    }
+    #m{
+        grid-area:M;
+        background-image: url(j.jpg);
+    }
+    #n{
+        grid-area:N;
+        background-image: url(j.jpg);
+    }
+
+    #o{
+        grid-area:O;
+        background-image: url(j.jpg);
+    }
+
+    #p{
+        grid-area:P;
+        background-image: url(j.jpg);
+    }
+
+    #t{
+        grid-area:T;
+        background-image: url(j.jpg);
+    }
+
+
+    body {
+        background-size: cover;
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 4fr 4fr 4fr;
+        grid-template-areas:
+        "B      C       D"
+        "E      F       G"
+        "L      M       N"
+        "O      P       P"
+        "T      P       P"
+        ;
+    }
+
+    section{
+        background: darkred;
+        margin: 8px;
+        color: white;
+    }

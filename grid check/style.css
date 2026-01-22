@@ -1,0 +1,36 @@
+body{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "A       A      B     B"
+    "C       C      C     C"
+    "D       E      E     F"      
+    
+    ;
+}
+
+#A{
+    border:solid red;
+    grid-area: A;
+}
+
+#B{
+    border:solid red;
+    grid-area: B;
+}
+#C{
+    border:solid red;
+    grid-area: C;
+}
+#D{
+    border:solid red;
+    grid-area: D;
+}
+#E{
+    border:solid red;
+    grid-area: E;
+}
+#F{
+    border:solid red;
+    grid-area: F;
+}
